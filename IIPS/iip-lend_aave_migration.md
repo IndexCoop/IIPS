@@ -16,6 +16,7 @@ This IIP proposes a specific LEND to AAVE upgrade path.
 
 ## Motivation
 99% of the Aave community have voted for the LEND to AAVE migration. The new Aave token features new tokenomics and governance features such as staking. For the DPI Set to accurately represent a stake in the Aave protocol the DPI Set must migrate its LEND tokens to AAVE tokens.
+On October 8th 2020, LEND liquidity is $2.6M on Uniswap and $10M on Sushiswap (down from $16m 2 days ago). AAVE liquidity is $4.6m on Uniswap (up from $3.6m 2 days ago). It is still advantageous to stay in LEND using Sushi for the time being but liquidity is drying up fast.
 
 **FOR**:
 * Upgrade LEND to AAVE tokens according to the IIP-1 proposal.
@@ -25,29 +26,11 @@ This IIP proposes a specific LEND to AAVE upgrade path.
 * Upgrade LEND to AAVE tokens according to a different specification.
 
 ## Specification
-<!--The specification should describe the syntax and semantics of any new feature, there are five sections
-1. Overview
-2. Rationale
-3. Technical Specification
-4. Test Cases
-5. Configurable Values
--->
-
 ### Overview
-<!--This is a high level overview of *how* the IIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
-This is a high level overview of *how* the IIP will solve the problem. The overview should clearly describe how the new feature will be implemented.
+Authorize the addition of the Set Protocol `WrapModule` to the DPI. Authorize the treasury to execute the LEND to AAVE Migration via the `AAVEMigrationWrapAdapter` contract in the `WrapModule`. Under the hood, the `AAVEMigrationWrapAdapter` calls the `migrateFromLEND` function to convert the `LEND` to `AAVE` tokens in DPI.
 
 ### Rationale
-<!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
-This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
-
-### Technical Specification
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Index Coop currently exposes or the creations of new ones.-->
-The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces of the Index Coop currently exposes or the creations of new ones.
-
-### Test Cases
-<!--Test cases for an implementation are mandatory for IIPs but can be included with the implementation..-->
-Test cases for an implementation are mandatory for IIPs but can be included with the implementation.
+This specification uses AAVEs migration infrastructure and existing Set V2 infrastructure. It mimics the token wrap/unwrap functionality which is commonly used throughout the Set V2 system.
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
