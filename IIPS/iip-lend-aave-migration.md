@@ -1,9 +1,9 @@
 ---
-iip: <to be assigned>
+iip: 001
 title: LEND to AAVE Migration
-status: WIP
+status: Proposed
 author: Dylan Tran(@controtie), Richard Liang(@richardliang)
-discussions-to: <Create a new thread on https://gov.indexcoop.com/ and drop the link here>
+discussions-to: https://gov.indexcoop.com/t/iip-1-lend-to-aave-migration/64
 created: 2020-10-08
 ---
 
