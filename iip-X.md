@@ -10,9 +10,9 @@ requires (*optional): <IIP number(s)>
 implementation (*optional): <Added if IIP passes>
 ---
 
-<!--You can leave these HTML comments in your merged IIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `yip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
+<!--You can leave these HTML comments in your merged IIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `iip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
 
-This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `yip-draft_title_abbrev.md`. The title should be 44 characters or less.
+This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `iip-draft_title_abbrev.md`. The title should be 44 characters or less.
 
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
@@ -44,7 +44,7 @@ This is a high level overview of *how* the IIP will solve the problem. The overv
 This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 
 ### Technical Specification
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces yEarn Finance currently exposes or the creations of new ones.-->
+<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Index Coop currently exposes or the creations of new ones.-->
 The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces of the Index Coop currently exposes or the creations of new ones.
 
 ### Test Cases
