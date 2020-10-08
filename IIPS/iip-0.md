@@ -44,6 +44,15 @@ Parties involved in the process are the author, the IIP editors, and the Index C
 Before you begin, vet your idea, this will save you time. Ask the Index Cooperative community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intended effect. The appropriate public forum to gauge interest around your IIP is the Index Cooperative Discord or the Index Cooperative governance forum.
 Your role as the champion is to write the IIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea. The following is the process for an IIP:
 
+```
+Proposed -> Approved -> Implemented
+  ^                     |
+  +----> Rejected       +----> Moribund
+  |
+  +----> Withdrawn
+  v
+Deferred
+```
 
 Each status change is requested by the IIP author and reviewed by the IIP editors. Use a pull request to update the status. Please include a link to where people should continue discussing your IIP. The IIP editors will process these requests as per the conditions below.
 
