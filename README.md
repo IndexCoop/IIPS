@@ -26,16 +26,6 @@ When you believe your IIP is mature and ready to progress past the WIP phase, yo
 * **Deferred** - a IIP that is pending another IIP/some other change that should be bundled with it together.
 * **Moribund** - a IIP that was implemented but is now obsolete and requires no explicit replacement.
 
-## Validation
-
-IIPs must pass some validation tests.  The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
-
-It is possible to run the YIP validator locally:
-```
-gem install yip_validator
-yip_validator <INPUT_FILES>
-```
-
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
