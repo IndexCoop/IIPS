@@ -1,0 +1,36 @@
+---
+iip: 001
+title: LEND to AAVE Migration
+status: Proposed
+author: Dylan Tran(@controtie), Richard Liang(@richardliang)
+discussions-to: https://gov.indexcoop.com/t/iip-1-lend-to-aave-migration/64
+created: 2020-10-08
+---
+
+## Simple Summary
+Migrate LEND to AAVE tokens in the DeFi Pulse Index Set.
+
+## Abstract
+Aave is conducting a protocol upgrade to convert LEND governance tokens to AAVE governance tokens.
+This IIP proposes a specific LEND to AAVE upgrade path.
+
+## Motivation
+99% of the Aave community have voted for the LEND to AAVE migration. The new Aave token features new tokenomics and governance features such as staking. For the DPI Set to accurately represent a stake in the Aave protocol the DPI Set must migrate its LEND tokens to AAVE tokens.
+On October 8th 2020, LEND liquidity is $2.6M on Uniswap and $10M on Sushiswap (down from $16m 2 days ago). AAVE liquidity is $4.6m on Uniswap (up from $3.6m 2 days ago). It is still advantageous to stay in LEND using Sushi for the time being but liquidity is drying up fast.
+
+**FOR**:
+* Upgrade LEND to AAVE tokens according to the IIP-1 proposal.
+ 
+**AGAINST**:
+* Do not upgrade LEND to AAVE tokens.
+* Upgrade LEND to AAVE tokens according to a different specification.
+
+## Specification
+### Overview
+Authorize the addition of the Set Protocol `WrapModule` to the DPI. Authorize the treasury to execute the LEND to AAVE Migration via the `AAVEMigrationWrapAdapter` contract in the `WrapModule`. Under the hood, the `AAVEMigrationWrapAdapter` calls the `migrateFromLEND` function to convert the `LEND` to `AAVE` tokens in DPI.
+
+### Rationale
+This specification uses AAVEs migration infrastructure and existing Set V2 infrastructure. It mimics the token wrap/unwrap functionality which is commonly used throughout the Set V2 system.
+
+## Copyright
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
