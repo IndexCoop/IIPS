@@ -1,0 +1,44 @@
+---
+Iip: 2
+title: Index Addition Proposal Format
+status: WIP
+author: Abhishek Punia (@puniaviision)
+Dylan Tran (@controtie)
+Inje Yeo (@inje)
+discussions-to: TBD
+created: 2020-10-08
+---
+
+## Simple Summary
+Add structure for making proposals to add indexes to the Coop.
+## Motivation
+Adding indexes is a potentially costly procedure for the Coop. Some costs may include:
+Index technical maintenance support
+Initial liquidity provision using Coop Treasury
+Potential listing coordination on Tokensets
+3rd party marketing coordination
+Cannibalizing market share from other Index Coop products
+
+This IIP suggests the Coop should have a distinct vision of what market needs a proposed index fills and the likelihood of product-market fit. This IIP would increase the qualified proposal requirements for authors wishing to add a new Index into the Coop.
+
+**FOR**:Agree to add **Research** as a required section for IIPs for Index Addition
+
+**AGAINST**:Do not add a **Research** section requirement for IIPs proposing index additions.
+ 
+### Overview
+We suggest that the Coop should make focused bets on the indexes that it chooses to launch. Winning the crypto index market is going to require a few of the Coop’s products becoming widely adopted among money market protocols, traders, and centralized exchanges. To do that requires a lot of community focus on marketing and BD which may be fragmented the more indexes are launched.
+
+This IIP suggests that a new section in IIPs called **Research** be added for authors seeking to add a new Index to the Coop. This section will contain the following sections.
+
+* **Size of opportunity:** Can this index hit $100M? What is the market size? Expected revenue generation?
+* **Liquidity commitment:** Indexes will be accessed through secondary markets. Is the author willing to seed liquidity (ie. In Uniswap or Balancer)?
+* **Differentiation:** Is the index sufficiently differentiated from existing products? Will the index cannibalize an existing product?
+* **On-chain liquidity analysis:** Can existing on-chain liquidity support the proposed assets that are expected to be included in the index?
+* **Methodology:** What is the methodology for inclusion and rebalancing of the index?
+* **Author background and commitment:** Is the author the right person to create this Index? Can they support distribution and marketing for the product?
+* **Fee split:** What percentage of the fees will be kept by the author and what percentage will go to the Coop?
+
+This should provide sufficient context for the Coop members to be able to make an educated decision on whether or not this Index is worth the backing of the Coop and whether the author is the right person or team to do it.
+
+## Copyright
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
