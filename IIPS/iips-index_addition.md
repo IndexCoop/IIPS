@@ -13,11 +13,12 @@ created: 2020-10-08
 Add structure for making proposals to add indexes to the Coop.
 ## Motivation
 Adding indexes is a potentially costly procedure for the Coop. Some costs may include:
-Index technical maintenance support
-Initial liquidity provision using Coop Treasury
-Potential listing coordination on Tokensets
-3rd party marketing coordination
-Cannibalizing market share from other Index Coop products
+
+* Index technical maintenance support
+* Initial liquidity provision using Coop Treasury
+* Potential listing coordination on Tokensets
+* 3rd party marketing coordination
+* Cannibalizing market share from other Index Coop products
 
 This IIP suggests the Coop should have a distinct vision of what market needs a proposed index fills and the likelihood of product-market fit. This IIP would increase the qualified proposal requirements for authors wishing to add a new Index into the Coop.
 
