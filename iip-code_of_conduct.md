@@ -13,7 +13,7 @@ Adopt a Code of Conduct for the Index Cooperative community.
 
 ## Abstract
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the IIP is implemented, not *why* it should be done or *how* it will be done. If the IIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
-Adopt and make visible a Code of Conduct for the community to abide by. The basis for the text is taken from the widely used [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/), but has the sections referring to enforcement removed as Index Coop currently has no leadership structure and should apply the code collaboratively.
+Adopt and make visible a Code of Conduct for the community to abide by. The basis for the text is taken from the widely used [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/), but has sections relating to 'enforcement' removed, as Index Coop currently has no leadership structure and should apply the code collaboratively.
 
 ## Motivation
 <!--This is the problem statement. This is the *why* of the IIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the IIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the IIP will address the issue!-->
@@ -24,30 +24,35 @@ Similar projects have added this type of framework retroactively after strugglin
 
 ### Overview
 <!--This is a high level overview of *how* the IIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
-This IIP recommends the following Code of Conduct is adopted by the community where it will be visible in Discord and can be referred to if the need arises. It aims to protect the inclusive nature of our community by giving clear guidelines for conduct.
+This IIP recommends the following Code of Conduct is adopted by the community where it will be visible in Discord and can be referred to if the need arises. It aims to protect the inclusive nature of our community by giving clear guidelines for conduct:
 
-Our Pledge
+**Our Pledge**
+
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-Our Standards
+**Our Standards**
+
 Examples of behavior that contributes to a positive environment for our community include:
 * Demonstrating empathy and kindness toward other people
 * Being respectful of differing opinions, viewpoints, and experiences
 * Giving and gracefully accepting constructive feedback
 * Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
 * Focusing on what is best not just for us as individuals, but for the overall community
-* Examples of unacceptable behavior include:
+
+Examples of unacceptable behavior include:
 * The use of sexualized language or imagery, and sexual attention or advances of any kind
 * Trolling, insulting or derogatory comments, and personal or political attacks
 * Public or private harassment
 * Publishing others’ private information, such as a physical or email address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a professional setting
 
-Scope
+**Scope**
+
 This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
-**For:** Implement modified version of the contributor covenant as shown above.
+**For:** Implement modified version of the contributor covenant as shown above
+
 **Against:** Do not implement a code of conduct
 
 ## Copyright
