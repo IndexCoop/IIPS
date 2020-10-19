@@ -2,14 +2,11 @@
 iip: <to be assigned>
 title: <Adopt A Code of Conduct>
 status: WIP
-author: <Paul Cooper (@darkforestcap)>
+author: <Paul (@darkforestcap)>
 discussions-to: <https://gov.indexcoop.com/>
 
 created: <2020-10-19>
 ---
-
-<!--You can leave these HTML comments in your merged IIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `iip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
-
 ## Simple Summary
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 Adopt a Code of Conduct for the Index Cooperative community.
