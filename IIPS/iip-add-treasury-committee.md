@@ -2,7 +2,7 @@
 iip: <to be assigned>
 title: Create a Treasury Committee
 status: WIP
-author: <Inje Yeo (@inje)>
+author: <Inje Yeo (@inje), Dylan Tran (@dylan)>
 discussions-to: <to be assigned>
 created: <2020-10-20>
 ---
@@ -15,7 +15,7 @@ This is a proposal to create a treasury committee seeded with 10,000 INDEX token
 
 The Index Coop doesn’t currently have a system for rewarding contributors. This proposal introduces a Lite Treasury Committee initially run by the Set team that distributes rewards to Index Coop contributors.
 
-This IIP proposes the treasury committee be granted 10,000 INDEX tokens (approx. $30,000 at time of writing) dedicated to paying out contributor rewards over the next 2 - 3 months. After funds are distributed, the treasury committee will reapply for a new rewards grant to continue rewards distribution.
+This IIP proposes the Treasury Committee be granted 10,000 INDEX tokens (approx. $30,000 at time of writing) dedicated to paying out contributor rewards over the next 2 - 3 months. After funds are distributed, the treasury committee will reapply for a new rewards grant to continue rewards distribution.
 
 Future upgrades to the organization of the Treasury Committee (e.g. adding a community elected multi-sig or algorithmic contributor attribution via SourceCred) can be added in when the community is ready to add these upgrades.
 
@@ -37,12 +37,12 @@ The treasury committee commits to values of:
 
 To exemplify these values from the start, the treasury committee will not pay Set or DeFi Pulse team members using these funds.
 
-FOR
+**FOR**
 
 * Create a lite treasury committee initially led by the Set team that spearheads the rewards distribution for the community.
 * Initially grant the treasury committee 10,000 INDEX tokens ($30,000 at $3 / INDEX) to distribute as rewards to Index community members.
 
-AGAINST
+**AGAINST**
 
 * Do not create a lite treasury committee.
 * Propose a different solution for rewards distribution.
@@ -86,7 +86,7 @@ The proposed rewards system is flexible enough that eventually the community can
 
 Create a treasury committee initially run by the Set team (like YFI’s rewards system) that handles rewards distribution for the community.
 
-#### Treasury Committee Grant
+### Treasury Committee Grant
 
 Seed 10,000 INDEX from the community treasury to a wallet under ownership of the Treasury Committee. These funds will be distributed to members of the community who contribute meaningfully to the Index Coop.
 
@@ -94,11 +94,11 @@ Seed 10,000 INDEX from the community treasury to a wallet under ownership of the
 
 ### Treasury Committee Responsibilities
 
-* Keep Track Of Contributions - The treasury committee will keep track of contributions happening to the Index Coop in order to create reasonable rewards distributions.
-* Decide Reward Sizes - The committee determines which contributions should get rewarded and by how much depending on if the contributions fall in line with the general goals of the coop, how much impact the contribution has, and how much effort the contribution required.
-* Service Contributor Appeals - When prompted, the treasury committee will give an early indication whether or not a proposed contribution is likely to see a reward. If a contributor feels their work has not been sufficiently acknowledged, they can make an appeal to the treasury committee [here](https://setlabs.typeform.com/to/jMjgA5z3).
-* Publish Reward Distributions - The committee will publish reward distributions at a regular cadence for contributing members. A post will be made when distributions are made similar to YFI’s rewards distribution [post here](https://gov.yearn.finance/t/september-grants-announcement/7044).
-* Distribute Rewards - The committee will distribute rewards to Index Coop contributors.
+* **Keep Track Of Contributions** - The treasury committee will keep track of contributions happening to the Index Coop in order to create reasonable rewards distributions.
+* **Decide Reward Sizes** - The committee determines which contributions should get rewarded and by how much depending on if the contributions fall in line with the general goals of the coop, how much impact the contribution has, and how much effort the contribution required.
+* **Service Contributor Appeals** - When prompted, the treasury committee will give an early indication whether or not a proposed contribution is likely to see a reward. If a contributor feels their work has not been sufficiently acknowledged, they can make an appeal to the treasury committee [here](https://setlabs.typeform.com/to/jMjgA5z3).
+* **Publish Reward Distributions** - The committee will publish reward distributions at a regular cadence for contributing members. A post will be made when distributions are made similar to YFI’s rewards distribution [post here](https://gov.yearn.finance/t/september-grants-announcement/7044).
+* **Distribute Rewards** - The committee will distribute rewards to Index Coop contributors.
 
 ### Rewardable Contributions
 
@@ -113,7 +113,7 @@ The rewardable contributions include but are not limited to:
   * Creating valuable content.
   * Recruiting and onboarding members into Index.
   * Creating community resources and/or adding to the [community Gitbook](https://docs.indexcoop.com/).
-  * Posting about Index/DPI on Twitter/Medium/Discord/Telegram and other channels.
+  * Index Coop product evangelism on social media channels like Twitter/Medium/Discord/Telegram.
   * Creating memes.
 * BD/Growth
   * Getting integrations with other products.
@@ -124,7 +124,7 @@ The rewardable contributions include but are not limited to:
 
 ### Meaningful Contributions
 
-Only the contributions that meaningfully add to the Index Coop will be considered for rewards. What is deemed a “meaningful contribution” is up to the discretion of the Treasury Committee, keeping in mind that the Treasury Committee is openly committed to values of Fairness, Sensibility, and Flexibility.
+Only the contributions that meaningfully add to the Index Coop will be considered for rewards. What is deemed a “meaningful contribution” is up to the discretion of the Treasury Committee, keeping in mind that the Treasury Committee is openly committed to values of **Fairness**, **Sensibility**, and **Flexibility**.
 
 If you’re wondering if your contribution is meaningful, ask these questions:
 
@@ -134,9 +134,9 @@ If you’re wondering if your contribution is meaningful, ask these questions:
   * Does it add more DPI holders?
   * Does it promote the DPI/Index in a positive way?
 
-Maintaining Integrity & Follow Up Funding
+### Maintaining Integrity & Follow Up Funding
 
-After it’s funds have been expended, the Treasury Committee will apply for a new treasury grant from the community. If the Treasury Committee does do a good job, the community can grant the request for funding. Alternatively, if the Treasury Committee does not do a good job, then the Index community can choose to deny the treasury grant request. The community can always propose alternative mechanisms for funding contributions.
+After it’s funds have been expended, the Treasury Committee will apply for a new treasury grant from the community. If the Treasury Committee does a good job, the community can grant the request for funding. Alternatively, if the Treasury Committee does not do a good job, then the Index community can choose to deny the treasury grant request. The community can always propose alternative mechanisms for funding contributions.
 
 ### Rewards Flow
 
@@ -144,20 +144,20 @@ To illustrate the end to end reward cycle, we’ve created a diagram below. Many
 
 ![Reward Proposal](./assets/iip-reward-proposal.png)
 
-1. Contribution Proposal - A potential contribution is proposed by a community member on the forum or Discord.
-2. Initial Eligibility Determination - If a user proposing an improvement asks if there’d be a reward for adding a contribution, the treasury committee will chime in to say if the proposal is rewardable based on the goals of the Index community.
+1. **Contribution Proposal** - A potential contribution is proposed by a community member on the forum or Discord.
+2. **Initial Eligibility Determination** - If a user proposing an improvement asks if there’d be a reward for adding a contribution, the treasury committee will chime in to say if the proposal is rewardable based on the goals of the Index community.
 
-  1. Rewardable - If it is eligible for a reward, the community searches for members to implement the proposal. It’s assumed that some proposers will be the implementers.
-  2. Not Rewardable - If it’s not rewardable, a member of the treasury committee lets the proposer know that it’s not eligible for a reward.
+    1. **Rewardable** - If it is eligible for a reward, the community searches for members to implement the proposal. It’s assumed that some proposers will be the implementers.
+    2. **Not Rewardable** - If it’s not rewardable, a member of the treasury committee lets the proposer know that it’s not eligible for a reward.
 
-3. Implementation - The proposal goes through implementation, then is reviewed by the treasury committee.
-4. Final Review - The treasury committee views the work and determines if it meets the bar for a reward to be paid out.
+3. **Implementation** - The proposal goes through implementation, then is reviewed by the treasury committee.
+4. **Final Review** - The treasury committee views the work and determines if it meets the bar for a reward to be paid out.
 
-  1. Accepted - The implementation is accepted and a reward is paid out to the implementer.
-  2. Denied - The implementation is deemed ineligible for the reward due to not meeting certain criteria. The implementor is asked to revise their implementation before submitting for review again.
+    1. **Accepted** - The implementation is accepted and a reward is paid out to the implementer.
+    2. **Denied** - The implementation is deemed ineligible for the reward due to not meeting certain criteria. The implementor is asked to revise their implementation before submitting for review again.
 
-5. Payment - The treasury committee sends a reward to the implementor.
+5. **Payment** - The treasury committee sends a reward to the implementor.
 
-### Copyright
+## Copyright
 
 Copyright and related rights waived via CC0
