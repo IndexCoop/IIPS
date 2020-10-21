@@ -1,9 +1,9 @@
 ---
-iip: <to be assigned>
+iip: 5
 title: Trustless Rebalance Process
 status: WIP
 author: <Brian Weickmann (brian@setprotocol.com), Alex Soong <alex@setprotocol.com>, Richard Liang (richard@setprotocol.com) and Felix Feng (felix@setprotocol.com)>
-discussions-to: <Create a new thread on https://gov.indexcoop.com/ and drop the link here>
+discussions-to: https://gov.indexcoop.com/t/iip-005-trustless-rebalance-process/192
 created: <2020-10-21>
 ---
 
@@ -12,10 +12,11 @@ created: <2020-10-21>
 Update the DPI rebalance mechanism to use a new smart contract. The new smart contract rebalances according to the following steps:
 
 1. A methodologist publishes new weights for the DPI off-chain
-2. Index Coop verifies the weights are accurate
-3. Index Coop converts weights to smart contract compatible units and submits them to the IndexModule contract
-4. Index Coop updates Index Module execution parameters used to facilitate rebalance trades
-5. Index Coop executes the rebalance through the Index Coop Manager
+1. Index Coop verifies the weights are accurate
+1. Index Coop updates the Index Module execution parameters that will be used to create rebalance trades
+1. Index Coop converts weights to smart contract compatible units
+1. Index Coop submits the compatible units to the IndexModule contract which starts the rebalance
+1. Index Coop executes the rebalance trades through the IndexModule
 
 ## Abstract
 
@@ -47,11 +48,12 @@ The IC has control over the DeFi Pulse Index smart contract by way of the contra
 
 Once migration to the ICM is complete, each rebalance will consist of five steps:
 
-1. Methodologist submits off-chain proposal of rebalance weights to IC
-2. IC verifies the weights adherence to the methodology
-3. IC interprets weights for use in Set Protocol contracts
-4. IC makes changes to execution parameters to ensure the smoothest rebalance (e.g. what exchanges the trades will be executed through)
-5. IC executes the rebalance by submitting interpreted weights to the ICM
+1. A methodologist publishes new weights for the DPI off-chain
+1. Index Coop verifies the weights are accurate
+1. Index Coop updates the Index Module execution parameters that will be used to create rebalance trades
+1. Index Coop converts weights to smart contract compatible units
+1. Index Coop submits the compatible units to the IndexModule contract which starts the rebalance
+1. Index Coop executes the rebalance trades through the IndexModule
 
 ### Rationale
 
