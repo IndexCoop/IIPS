@@ -43,19 +43,15 @@ Many large holder may lock their INDEX in liquidity pools. This benefits the Ind
 
 ### Overview
 <!--This is a high level overview of *how* the IIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
-Snapshot allows organizations to select from a range of different “strategies” to count an address’s voting power. I have written up a strategy that would include an address’s unclaimed rewards and INDEX in LPs in their vote weight. 
+Snapshot allows organizations to select from a range of different “strategies” to count an address’s voting power. I have written up modifcations to the Index's Snapshot space that would include uncalimed tokens and tokens locked in LP pools in the vote.
 
 ### Rationale
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
-Many prominent protocols have written their own strategies for Snapshot governance. This includes Cream, Balancer, Synthetix, and Uniswap. Writing new strategies is officially supported by Snapshot, and requires fewer than 100 lines of code. Furthermore, this proposal requires no changes on-chain, making this a relatively low risk proposal.
+Changing Snapshot is simple to do, and many prominant protocols have done this to acheive thier goals. Furthermore, this proposal requires no changes on-chain, making this a relatively low risk proposal.
 
 ### Technical Specification
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Index Coop currently exposes or the creations of new ones.-->
-The code for the new Snapshot strategy can be viewed here: https://github.com/ncitron/snapshot.js/tree/master/src/strategies/erc20-balance-of-with-unclaimed-and-pooled
-
-### Test Cases
-<!--Test cases for an implementation are mandatory for IIPs but can be included with the implementation..-->
-The tests for this can be viewed here: https://gist.github.com/ncitron/9271edaeafa0ec8db66c5009adfaa9c5. To run these tests, you can replace the code inside of snapshot.js's `test/index.ts` with the code linked above. The tests have not been included in the snapshot.js codebase so as not to pollute the snapshot.js repo, which does not include tests for third-party strategies.
+The modifications of the Snapshot Space can be viewed here: https://github.com/ncitron/snapshot-spaces/blob/master/spaces/index/index.json.
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
