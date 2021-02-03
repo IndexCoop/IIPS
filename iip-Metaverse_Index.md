@@ -81,12 +81,21 @@ The tiers will be used to cap the portfolio weight of projects with both low mar
 
 The index is maintained monthly in two phases:
 
-Additions and deletions: The tokens being added and deleted from the index calculation are determined during the third week of the month and published before monthly reconstitution.
+**Determination Phase
+
+The determination phase takes place during the third week of the month. It is the phase when the changes needed for the next reconstitution are determined.
+
+Additions and deletions: The tokens being added and deleted from the index calculation are determined during the third week of the month and published before monthly reconstitution. This takes place with oversight from a subject matter expert, external to the Index Coop.
+Circulating Supply Determination: The Circulating Supply is determined during the third week of the month and published before the monthly reconstitution. To start with we will use Coingecko's circulating supply figure.
+**Reconstitution Phase
+
 Following publication of the determination phase outcome, the index composition will change to the new weights on the first working day of the following month. I.e components will be added or removed, and weights adjusted.
 
 ### Draft Portfolio
 
 This is provided as an illustration and inclusions are not final. The index launch composition will be provided prior to DG2 voting.
+
+
 
 ### Fees
 Fees will be finalised with the Business Analysis team after DG1 voting but will remain in the 0.55-0.95% ballpark as per the initial proposal.
