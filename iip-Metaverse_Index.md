@@ -42,6 +42,8 @@ In terms of differentiating from other products that exist this isn’t a yield 
 
 ### Liquidity Analysis
 
+The market liquidity for potential inclusions has been undertaken and used to scale the weighting of each project, but it is not ready to be shared publicly just yet. We are working with the business analysis team within Index Coop to formalise this process and will publish a table here when it is complete. There is also work ongoing to create a Dune Analytics dashboard that can measure the liquidity of the underlying tokens, ready to be used during the determination phase prior to each monthly rebalance.
+
 ### Methodology
 Selection of the $MVI tokens would be based on the following basic criteria:
 
@@ -98,7 +100,10 @@ The streaming fee will be split 95% to Index Coop and 5% to the methodologist.  
 
 ## Author background and commitment 
 
-DarkForest has been a member of the Index Coop community since the beginning, initially proposing the Metaverse Index within the first week of the Coop launching. Since then DFC has joined the treasury committee, produced the newsletter and more recently looked to improve Index tokenomics. Verto arrived on the scene more recently but got straight to work making improvements, firstly launching the Investment Committee to improve our content and analysis while also reaching out to wallets and exchanges for partnership. Verto took the original Metaverse proposal and reworked the weighting calculation to overcome the low liquidity that some of the tokens experience, making the idea into a reality.
+DarkForestCapital has been a member of the Index Coop community since the beginning, initially proposing the Metaverse Index within the first week of the Coop launching. Since then DFC has joined the treasury committee, produced the newsletter and more recently looked to improve Index tokenomics. 
+
+Verto arrived on the scene more recently but got straight to work making improvements, firstly launching the Investment Committee to improve our content and analysis while also reaching out to wallets and exchanges for partnership. Verto took the original Metaverse proposal and reworked the weighting calculation to overcome the low liquidity that some of the tokens experience, making the idea into a reality.
+
 Mason Nystrom is a research analyst at [Messari](https://messari.io/) specialising in NFTs, social tokens and the metaverse. Mason will provide fundamental analysis as an overlay to the methodology and criteria specified above.
 
 ## Copyright
