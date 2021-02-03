@@ -12,10 +12,6 @@ created: 2021-02-02
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 This IIP relates to launching the Metaverse Index with an updated methodology as described below. This will be the first index product to be launched from within the Coop community and not with an external partner as the methodologist. It is designed to capture the potential upside of the new but growing group of projects on Ethereum that relate to virtual ownership through NFTs, gaming, virtual reality and entertainment.
 
-## Abstract
-<!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the IIP is implemented, not *why* it should be done or *how* it will be done. If the IIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
-A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the IIP is implemented, not *why* it should be done or *how* it will be done. If the IIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".
-
 ## Motivation
 <!--This is the problem statement. This is the *why* of the IIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the IIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the IIP will address the issue!-->
 The opportunity here is to create an index that rewards long term investment in a decentralized and virtual future. Holders of the Metaverse Index are taking a view that the future of entertainment, sports and business will shift to a virtual environment and that transactions will take place on the Ethereum blockchain within this metaverse.
@@ -25,9 +21,9 @@ It's clear there is strong demand for an index in this sector, PieDAO recently a
 ## Specification
 
 ### Size of the opportunity?
-Unlike the current craze for yield and the narrative of blockchain replacing traditional financial systems, the gaming/VR sector is flying somewhat under the radar. If we look at the mainstream gaming market, it’s currently valued around $155b (2020) predicted to rise to $200b by 2023. A quick back of the envelope calculation for the top 5 crypto gaming projects (using MANA, ENJ, SAND, UOS and CUBE) gives a market cap of roughly $360m, that’s 430x smaller…
+Unlike the current craze for yield and the narrative of blockchain replacing traditional financial systems, the gaming/VR sector is flying somewhat under the radar. If we look at the mainstream gaming market, it’s currently valued around $155b (2020) predicted to rise to [$200b by 2023](https://www.forbes.com/sites/mattgardner1/2020/09/19/gaming-industry-value-200-billion-fortnite-microtransactions/?sh=1e6c472a2bb4). A quick back of the envelope calculation for the top 5 crypto gaming projects (using MANA, ENJ, SAND, UOS and CUBE) gives a market cap of roughly $360m, that’s 430x smaller…
 
-In terms of holding virtual meetings and other remote working opportunities, ZOOM’s market cap rose above $100b in 2020. What happens when we are all meeting in the local Decentraland office? Crypto educator Alex Saunders of Nuggets News recently constructed a HQ in Decentraland and established businesses like Rarible and Matic have been there for a while (take a walk over to crypto valley). In the last year there have been a number of forums and conventions held in Decentraland and prominent figures in the crypto space continue to use it as a way to engage with followers.
+In terms of holding virtual meetings and other remote working opportunities, ZOOM’s market cap [rose above $100b](https://finance.yahoo.com/quote/ZM/) in 2020. What happens when we are all meeting in the local Decentraland office? Crypto educator Alex Saunders of Nuggets News recently constructed a HQ in Decentraland and established businesses like Rarible and Matic [have been there for a while](https://decentraland.org/) (take a walk over to crypto valley). In the last year there have been a number of forums and conventions held in Decentraland and prominent figures in the crypto space continue to use it as a way to engage with followers.
 
 Aside from gaming and the virtual meetings that can take place inside these projects, there is also the ‘virtual object’ aspect, underpinned by Non Fungible Tokens (NFTs). According to research from Messari, sales volume for NFTs is around $150 million and metaverses make up roughly a third of that.
 
@@ -38,7 +34,7 @@ In Somnium space, Decentraland and Sandbox it is possible to use each project’
 ### How is it different from other products?
 $MVI is a straightforward bet on the world moving to a more virtual environment to conduct both business and pleasure.
 
-In terms of differentiating from other products that exist this isn’t a yield farming play, it functions more like a traditional equity ETF in that it simplifies the expression of a particular trade. In this case the belief that virtual environments hold huge growth potential over the coming years. A similar product in the tradFi world is the Van Eck e-sports ETF.
+In terms of differentiating from other products that exist this isn’t a yield farming play, it functions more like a traditional equity ETF in that it simplifies the expression of a particular trade. In this case the belief that virtual environments hold huge growth potential over the coming years. A similar product in the tradFi world is the [Van Eck e-sports ETF](https://www.vaneck.com/etf/equity/espo/overview/).
 
 ### Liquidity Analysis
 
@@ -87,11 +83,10 @@ The index is maintained monthly in two phases:
 
 Additions and deletions: The tokens being added and deleted from the index calculation are determined during the third week of the month and published before monthly reconstitution.
 Following publication of the determination phase outcome, the index composition will change to the new weights on the first working day of the following month. I.e components will be added or removed, and weights adjusted.
-Draft portfolio
-Portfolio construction:
 
+### Draft Portfolio
 
-Share of the market cap owned by the $MVI index at $5 million and $10 million TVL
+This is provided as an illustration and inclusions are not final. The index launch composition will be provided prior to DG2 voting.
 
 ### Fees
 Fees will be finalised with the Business Analysis team after DG1 voting but will remain in the 0.55-0.95% ballpark as per the initial proposal.
