@@ -47,7 +47,7 @@ Selection of the $MVI tokens would be based on the following basic criteria:
 * Protocol must be in one of the following token categories on Coingecko: Non Fungible Tokens, Entertainment, Virtual Reality, Augmented Reality and Music. More categories can be added in the future as the market matures.
 * Total market cap must be over $15m.
 * Protocol must have at least 3 months history of operation.
-* Token must have reasonable and consistent DEX liquidity on Ethereum, as quantified by the token tier weightings in the calculation below
+* Token must have reasonable and consistent DEX liquidity on Ethereum
 * An independent security audit should have been performed on the protocol and results reviewed by Index community and product methodologist. In the case that no audit has been performed, a community vote can take place based on subjective judgement of the protocol, with a weighting reflective of the increased risk.
 * In the event of a security issue the set manager should work with the project team to understand the issue and any effects to the $MVI holdings. Upon resolution the index manager and community should review together and vote to keep the token or not.
 * Tokens will not be staked at the launch of the index. This is subject to change as liquidity increases and it becomes possible to safely generate yield through staking.
@@ -66,16 +66,7 @@ MCW – market cap weighted allocation
 
 LW – liquidity weighted allocation
 
-Furthermore, the $MVI will use 4 tiers for projects’ market cap and liquidity. For the purposes of liquidity, the tiers will be based on the size of a trade that can be accommodated with slippage below 3%. The tiers will be as follows:
-
-| Market Cap               | Tier | Liquidity | Tier |
-|---                    |---|---|---|
-| 0 to 14.99 mil             | 1  | 0 to 9.99k | 1 |
-| 15 to 29.99 mil             |  2 | 10 to 24.99k | 2 |
-| 30 to 99.99 mil   | 3  | 25k to 50k | 3 |
-| >100 mil    | 4  | > 50k | 4 |
-
-The tiers will be used to cap the portfolio weight of projects with both low market cap and low liquidity. Projects with a Tier Multiplier (Market Cap Tier * Liquidity Tier) of 4 or below will be capped at 3% allocation.
+Maximum weight caps are under consideration for the largest projects at 20-25%, and for those with insufficient liquidity at 3-5%. This will be clarified with the business analysis team prior to DG2 voting based on the market liquidity analysis.
 
 ### Index Maintenance
 
@@ -95,7 +86,7 @@ Following publication of the determination phase outcome, the index composition 
 
 This is provided as an illustration and inclusions are not final. The index launch composition will be provided prior to DG2 voting.
 
-
+![image](https://github.com/darkforestcap/IIPS/blob/master/draftportfolio.jpeg?raw=true)
 
 ### Fees
 Fees will be finalised with the Business Analysis team after DG1 voting but will remain in the 0.55-0.95% ballpark as per the initial proposal.
