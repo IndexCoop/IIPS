@@ -50,15 +50,15 @@ Scope of work: deploy via GUI, manually sell streaming fees for ETH and deposit 
 
 Configurable rights: Key - **True**, False
 
-**canPauseSwapping** - used to prevent trading in the pool, useful in the case of a black swan event
+**canPauseSwapping**
 
-**canChangeSwapFee** - used as a tuneable to encourage/discourage trading
+**canChangeSwapFee**
 
-**canChangeWeights** - may need to change in future to accommodate change in income/expenditure balance and drawdown on INDEX token as we decentralise
+**canChangeWeights**
 
-**canAddRemoveTokens** - allows for further asset diversity 
+**canAddRemoveTokens**
 
-**canWhitelistLPs** - required to enable Index Coop to add/remove liquidity (deposit streaming fees/pay expenditure)
+**canWhitelistLPs**
 
 canChangeCap- not configurable, only required for public pools with multiple liquidity providers
 
@@ -83,8 +83,6 @@ Treasury Strategy is currently being guided by Treasury Questionnaire [Pt. 1](ht
 Forum Post: [Adopt a Smart Treasury](https://gov.indexcoop.com/t/adopt-a-smart-treasury/726)
 
 Google Doc: [Treasury Goals](https://docs.google.com/document/d/1LcP0DkuMdNrPTj4sBWXBD9hJMf7fp5uDh0F_-wIj9uo/edit#)
-
-Discord Discussion: [2/9/21](https://discord.com/channels/762061559744299010/798768395918376980/809178603748589588)
 
 Example: [AAVE smart pool](https://pools.balancer.exchange/#/pool/0xc697051d1c6296c24ae3bcef39aca743861d9a81/about)
 
