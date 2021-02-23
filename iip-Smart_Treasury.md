@@ -60,7 +60,7 @@ Configurable rights: Key - **True**, False
 
 **canWhitelistLPs**
 
-canChangeCap- not configurable, only required for public pools with multiple liquidity providers
+canChangeCap - false, allowing us the flexibility to add any amount of liquidity
 
 ## Specification - >3 months
 
