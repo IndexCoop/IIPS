@@ -1,70 +1,87 @@
 ---
 iip: <to be assigned>
-title: <IIP title>
+title: Deploy Smart Treasury
 status: WIP
-author: <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s), e.g. (use with the parentheses or triangular brackets): FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
-discussions-to: <Create a new thread on https://gov.indexcoop.com/ and drop the link here>
+author: DarkForestCapital, AlphaGuy
+discussions-to: https://gov.indexcoop.com/
 
-created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+created: 2021-02-23
 requires (*optional): <IIP number(s)>
 implementation (*optional): <Added if IIP passes>
 ---
 
-<!--You can leave these HTML comments in your merged IIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `iip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
+## Summmary
 
-This is the suggested template for new IIPs. Note that an IIP number will be assigned by an editor. When opening a pull request to submit your IIP, please use an abbreviated title in the filename, `iip-draft_title_abbrev.md`. The title should be 44 characters or less.
-
-## Simple Summary
-
-<!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
-
-"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed change intends to achieve. This should be non-technical and accessible to a casual community member.
+Deploy a Balancer Smart Pool with $500k from the community treasury to pilot a [buy-back-and-make model](https://www.placeholder.vc/blog/2020/9/17/stop-burning-tokens-buyback-and-make-instead) for improving INDEX tokenomics, with an option to extend after 3 months based on program success.
 
 ## Abstract
 
-<!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the IIP is implemented, not *why* it should be done or *how* it will be done. If the IIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
+**Issue**: Looking for a function to accrue value to INDEX tokens that is gas/tax efficient and allows the Index Coop to retain income for reinvestment during the growth phase.
 
-A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what _will_ be done if the IIP is implemented, not _why_ it should be done or _how_ it will be done. If the IIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".
+**Solution**: Deploy a smart balancer pool for a portion of our treasury as an automated buy-back mechanism for the INDEX token.
 
-## Motivation
+**Why**:
+* Streaming fees accrue value directly to INDEX tokens via the automated buy-back mechanism
+* Maintains a fixed amount of treasury diversification because of fixed pool weight
+* Sustainability in terms of being able to reward contributors from the pool into the future
+* Increased market liquidity
+* Improved treasury transparency
+* Traders pay us to rebalance the pool by arbitraging the price difference after a deposit/withdrawal. [Further reading](https://balancer.finance/whitepaper/)
 
-<!--This is the problem statement. This is the *why* of the IIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the IIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the IIP will address the issue!-->
+**How**: 80/20 INDEX/ETH Balancer smart pool
 
-This is the problem statement. This is the _why_ of the IIP. It should clearly explain _why_ the current state of the protocol is inadequate. It is critical that you explain _why_ the change is needed, if the IIP proposes changing how something is calculated, you must address _why_ the current calculation is innaccurate or wrong. This is not the place to describe how the IIP will address the issue!
+**Immediate Effect**: $100k DPI swapped to ETH, combine with $400k INDEX from treasury committee wallet and seed the pool. Manually sell DPI streaming fees to ETH and deposit into the pool over the following 3 months.
 
-## Specification
+Implementing this proposal would involve the creation of a balancer smart pool that only a whitelisted controller contract (in this case the Index Coop multi-sig) can interact with. We will deploy the pool through Balancer’s GUI using the parameters set out in the Specification section below. This will provide enough funds to cover 6 months of reward contributions plus sufficient liquidity to encourage arbitrage trades.
 
-<!--The specification should describe the syntax and semantics of any new feature, there are five sections
-1. Overview
-2. Rationale
-3. Technical Specification
-4. Test Cases
-5. Configurable Values
--->
+We will be able to monitor the performance of the pool and determine slippage, trading fees and Balancer rewards. The data can be used to project if this is worthwhile scaling up and adopting on a permanent basis, as well as how to best adjust the trading fee parameter for optimal growth.
 
-### Overview
+## Specification - Initial
 
-<!--This is a high level overview of *how* the IIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
+Weight: 80/20 INDEX/ETH
 
-This is a high level overview of _how_ the IIP will solve the problem. The overview should clearly describe how the new feature will be implemented.
+Liquidity: $500k seeding ($400k INDEX, 100k ETH), further liquidity added via DPI converted to ETH
 
-### Rationale
+Swap fee: 0.3% (can be changed)
 
-<!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+Cost: Negligible, gas fees are reimbursed for deployment
 
-This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
+Scope of work: deploy via GUI, manually sell streaming fees for ETH and deposit in the pool. 
 
-### Technical Specification
+Configurable rights: Key - **True**, False
 
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Index Coop currently exposes or the creations of new ones.-->
+**canPauseSwapping** - used to prevent trading in the pool, useful in the case of a black swan event
 
-The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces of the Index Coop currently exposes or the creations of new ones.
+**canChangeSwapFee** - used as a tuneable to encourage/discourage trading
 
-### Test Cases
+**canChangeWeights** - may need to change in future to accommodate change in income/expenditure balance and drawdown on INDEX token as we decentralise
 
-<!--Test cases for an implementation are mandatory for IIPs but can be included with the implementation..-->
+**canAddRemoveTokens** - allows for further asset diversity 
 
-Test cases for an implementation are mandatory for IIPs but can be included with the implementation.
+**canWhitelistLPs** - required to enable Index Coop to add/remove liquidity (deposit streaming fees/pay expenditure)
+
+canChangeCap- not configurable, only required for public pools with multiple liquidity providers
+
+## Specification - >3 months
+
+Weight: 80/20 INDEX/ETH
+
+Liquidity: $1.5m, with plans to add further liquidity via all live product streaming fees
+
+Swap fee: 0.3% (can be changed)
+
+Cost: Development (minimal), contract spec below
+
+Scope of work: Develop a contract to convert streaming fees to ETH and deposit into smart treasury (shown in red box below).  
+
+## Background:
+
+Treasury Strategy is currently being guided by Treasury Questionnaire Pt. 1 and Pt 2
+Forum Post: Adopt a Smart Treasury
+Google Doc: Treasury Goals
+Discord Discussion: 2/9/21
+Example: AAVE smart pool
+Example: IDLE Finance
 
 ## Copyright
 
