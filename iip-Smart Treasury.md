@@ -74,14 +74,21 @@ Cost: Development (minimal), contract spec below
 
 Scope of work: Develop a contract to convert streaming fees to ETH and deposit into smart treasury (shown in red box below).  
 
+![image](https://github.com/darkforestcap/IIPS/blob/master/streaming_fee_conversion.png)
+
 ## Background:
 
-Treasury Strategy is currently being guided by Treasury Questionnaire Pt. 1 and Pt 2
-Forum Post: Adopt a Smart Treasury
-Google Doc: Treasury Goals
-Discord Discussion: 2/9/21
-Example: AAVE smart pool
-Example: IDLE Finance
+Treasury Strategy is currently being guided by Treasury Questionnaire [Pt. 1](https://gov.indexcoop.com/t/treasury-questionnaire/596) and [Pt 2](https://gov.indexcoop.com/t/treasury-questionnaire-pt-2/716)
+
+Forum Post: [Adopt a Smart Treasury](https://gov.indexcoop.com/t/adopt-a-smart-treasury/726)
+
+Google Doc: [Treasury Goals](https://docs.google.com/document/d/1LcP0DkuMdNrPTj4sBWXBD9hJMf7fp5uDh0F_-wIj9uo/edit#)
+
+Discord Discussion: [2/9/21](https://discord.com/channels/762061559744299010/798768395918376980/809178603748589588)
+
+Example: [AAVE smart pool](https://pools.balancer.exchange/#/pool/0xc697051d1c6296c24ae3bcef39aca743861d9a81/about)
+
+Example: [IDLE Finance](https://gov.idle.finance/t/iip-2-add-a-smart-treasury-to-idle/211/7)
 
 ## Copyright
 
