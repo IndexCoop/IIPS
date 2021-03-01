@@ -74,7 +74,7 @@ Cost: Development (minimal), contract spec below
 
 Scope of work: Develop a contract to convert streaming fees to ETH and deposit into smart treasury (shown in red box below).  
 
-![image]()
+![image](https://github.com/darkforestcap/IIPS/blob/smart-treasury-iip/IIPS/assets/streaming_fee_conversion.png)
 
 ## Background:
 
